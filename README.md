@@ -65,5 +65,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+# Deploy with netlify hrre is the Url: https://flamboyant-dubinsky-aeedd3.netlify.app (Preview on Netlify)  
 
 "# designia-App" 
