@@ -15,9 +15,9 @@ function Portfolio() {
     return (
         <div className="h-screen flex flex-1 items-center justify-center" style={{ backgroundImage: `url(${Background2})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
             <div class="md:px-28 xl:w-9/12 xl:py-6">
-                <div class="flex  max-auto lg:py-10 py-16">
+                <div class="flex  max-auto lg:py-10 py-16 md:mt-0 -mt-12">
                     <div class="">     
-                        <div class="">
+                        <div class="py-4">
                             <img className="py-4" alt="gallery" class="" src={gallery} />
 
                         </div>
