@@ -10,8 +10,8 @@ function Header () {
     return (
         <div className="h-screen" style={{ backgroundImage: `url(${backimg})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
             <Navigation />
-            <div class="pt-16">
-                <div class="xl:py-8 lg:mt-24 md:mt-20 md:container px-2 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+            <div class="pt-8">
+                <div class="xl:py-4 lg:mt-24 md:mt-20 md:container px-2 mx-auto flex flex-wrap flex-col md:flex-row items-center">
                     <div class="flex flex-col w-full md:w-2/5 justify-center items-center text-center md:text-left md:px-14 lg:px-10">
                         <p class="my-2 text-white text-2xl md:text-xl md:font-extrabold lg:text-4xl lg:font-extrabold xl:text-4xl">We make thing done!</p>
                         <p class="xl:ml-3 xl:text-lg text-gray-200 text-xs">

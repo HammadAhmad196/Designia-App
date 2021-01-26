@@ -19,7 +19,7 @@ function Portfolio () {
 
             <Navigation />
             <section class="md:px-28 xl:px-72 xl:py-6">
-                <div class="flex max-auto lg:py-10 py-24">
+                <div class="flex max-auto lg:py-10 py-12">
                     <div class="">
                         <div class="py-4">
                             <img className="" alt="gallery" class="" src={gallery} />

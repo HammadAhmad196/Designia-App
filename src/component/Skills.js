@@ -12,7 +12,7 @@ function Skills () {
         return (
             <div className="h-screen" style={{ background: `url(${background})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
                 <Navigation />
-                <div className="container py-24 lg:py-28 xl:py-28 mx-auto">
+                <div className="container py-12 lg:py-28 xl:py-28 mx-auto">
                     <div className="flex flex-row justify-start items-center text-center">
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
                             <img className="xl:w-48 lg:w-44" src={circle} alt="circle" />
