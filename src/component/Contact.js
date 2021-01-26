@@ -7,37 +7,39 @@ export default class Contact extends React.Component {
         return (
             <div className="h-screen" style={{ background: `url(${Background3}) no-repeat scroll center`, backgroundSize: "cover", }}>
                 <Navigation />
-                <section class="py-24 md:py-24 lg:py-24 xl:py-28 text-gray-600 body-font relative">
+                <section class="py-28 md:py-32 lg:py-32 xl:py-40 text-gray-600 body-font relative">
                     <div class="container px-5 mx-auto">
                         <div class="lg:w-1/2 md:w-2/3 mx-auto">
                             <div class="flex flex-wrap content-center justify-items-center -m-2">
                                 <div class="p-2 w-1/2">
                                     <div class=" relative">
-                                        <label for="name" class="leading-7 text-xl text-white">Name</label>
-                                        <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                        <input type="text" placeholder="Name" class="text-xl placeholder-white outline-none w-full border-0 bg-transparent border-b-2 border-white" />
                                     </div>
                                 </div>
                                 <div class=" p-2 w-1/2">
                                     <div class=" relative">
-                                        <label for="email" class="leading-7 text-xl text-white">Email</label>
-                                        <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                        <input type="email" placeholder="Email" class="text-xl placeholder-white outline-none w-full border-0 bg-transparent border-b-2 border-white" />
                                     </div>
                                 </div>
                                 <div class="p-2 w-full">
                                     <div class="relative">
-                                        <label for="message" class="leading-7 text-xl text-white">Message</label>
-                                        <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                                        <textarea placeholder="Message" name="message" class="text-xl placeholder-white outline-none w-full border-0 bg-transparent border-b-2 border-white"></textarea>
                                     </div>
                                 </div>
-                                <div class="p-2 w-full text-right">
-                                    <span class="inline-flex text-white lg:-mr-56 lg:gap-6  md:-mr-32 md:gap-6">
+                                <div className="">
+                                    <div className="flex-row">
+                                        <button class="px-2 py-1 text-blue-400 rounded-2xl border-2 bg-white  focus:outline-none">Send Message</button>
+                                    </div>
+                                </div>
+                                <div class=" md:my-4 my-10 w-full text-right">
+                                    <span class="xl:text-xl md:text-base flex flex-row text-white lg:gap-6  md:ml-40  lg:ml-40  xl:ml-72  md:gap-6">
                                         <a class="ml-2">
                                             For more checkout
                                         </a>
-                                        <a class="ml-2 underline">
+                                        <a class="text-sm ml-2 underline">
                                             Dribble
                                         </a>
-                                        <a class="ml-2 underline ">
+                                        <a class="text-sm ml-2 underline ">
                                             Behance
                                     </a>
                                     </span>

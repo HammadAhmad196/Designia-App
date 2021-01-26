@@ -13,13 +13,13 @@ export default class App extends React.Component {
                         designia.
                     </a>
                 </div>
-                <label for="menu-toggle" class="pointer-cursor md:hidden block">
+                {/* <label for="menu-toggle" class="pointer-cursor md:hidden block">
                     <svg class="fill-current text-gray-900"
                         xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
                         <title>menu</title>
                         <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
                     </svg>
-                </label>
+                </label> */}
                 <input class="hidden" type="checkbox" id="menu-toggle" />
                 <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto  mt-2 lg:mt-0 hidden lg:bg-transparent  lg:p-0 z-20" id="nav-content">
                     <ul className="xl:text-xl list-reset lg:flex justify-end flex-1 items-center">
