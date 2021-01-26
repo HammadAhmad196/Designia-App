@@ -7,7 +7,7 @@ export default class Contact extends React.Component {
         return (
             <div className="h-screen" style={{ background: `url(${Background3}) no-repeat scroll center`, backgroundSize: "cover", }}>
                 <Navigation />
-                <section class="py-12 md:py-32 lg:py-32 xl:py-40 text-gray-600 body-font relative">
+                <section class="py-28 md:py-36 lg:py-36 xl:py-40 text-gray-600 body-font relative">
                     <div class="container px-5 mx-auto">
                         <div class="lg:w-1/2 md:w-2/3 mx-auto">
                             <div class="flex flex-wrap content-center justify-items-center -m-2">
