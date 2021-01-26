@@ -4,15 +4,13 @@ import circle from '../assets/circle.png';
 import circle1 from '../assets/circle1.png';
 import circle2 from '../assets/circle2.png';
 import {useHistory } from 'react-router-dom';
-import Navigation from '../component/Navigation';
 
 function Skills () {
     const history = useHistory();
     const navigateTo = () => history.push('/portfolio');
         return (
-            <div className="h-screen" style={{ background: `url(${background})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
-                <Navigation />
-                <div className="container py-24 lg:py-28 xl:py-28 mx-auto">
+            <div className="h-screen flex flex-1 items-center justify-center" style={{ background: `url(${background})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
+                <div className="container mx-auto">
                     <div className="flex flex-row justify-start items-center text-center">
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
                             <img className="xl:w-48 lg:w-44" src={circle} alt="circle" />
@@ -40,8 +38,8 @@ function Skills () {
                         <p className="lg:-ml-16 mt-4 xl:text-xl xl:mt-8 xl:-ml-2 md:ml-10 lg:text-sm md:text-xs">Get your thing done by us at a very affordable cost. We make sure the quality content. We care about client satisfaction.</p>
                     </div>
                     <div className=" xl:mx-4 lg:mr-20 md:mr-6">
-                        <button onClick={navigateTo} className="lg:text-base xl:text-lg text-sm md:mt-8 xl:mr-24 float-right text-white mr-8 lg:mt-2 mt-8">NextPage→</button>
-                    </div>
+                        <button onClick={navigateTo} className="lg:text-base xl:text-lg text-sm md:mt-8 xl:mr-2 float-right text-white mr-2 lg:mt-2 ">NextPage→</button>
+                    </div> 
                 </div>
             </div>
         );

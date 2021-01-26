@@ -1,13 +1,11 @@
 import React from 'react';
 import Background3 from '../assets/Background3.png';
-import Navigation from '../component/Navigation';
 
 export default class Contact extends React.Component {
     render() {
         return (
-            <div className="h-screen" style={{ background: `url(${Background3}) no-repeat scroll center`, backgroundSize: "cover", }}>
-                <Navigation />
-                <section class="py-28 md:py-36 lg:py-36 xl:py-40 text-gray-600 body-font relative">
+            <div className="h-screen flex flex-1 items-center justify-center" style={{ background: `url(${Background3}) no-repeat scroll center`, backgroundSize: "cover", }}>
+                <section class=" text-gray-600 body-font relative">
                     <div class="container px-5 mx-auto">
                         <div class="lg:w-1/2 md:w-2/3 mx-auto">
                             <div class="flex flex-wrap content-center justify-items-center -m-2">

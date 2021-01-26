@@ -7,19 +7,15 @@ import gallery3 from '../assets/gallery3.png';
 import gallery4 from '../assets/gallery4.png';
 import gallery5 from '../assets/gallery5.png';
 import { Link, useHistory } from 'react-router-dom';
-import Navigation from '../component/Navigation';
-import Contact from './Contact';
 
 
-function Portfolio () {
+function Portfolio() {
     const history = useHistory();
     const navigateTo = () => history.push('/contact');
     return (
-        <div className="h-screen" style={{ backgroundImage: `url(${Background2})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
-
-            <Navigation />
-            <section class="md:px-28 xl:px-72 xl:py-6">
-                <div class="flex max-auto lg:py-10 py-24">
+        <div className="h-screen flex flex-1 items-center justify-center" style={{ backgroundImage: `url(${Background2})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
+            <div class="md:px-28 xl:px-72 xl:py-6">
+                <div class="flex max-auto lg:py-10 py-16">
                     <div class="">
                         <div class="py-4">
                             <img className="" alt="gallery" class="" src={gallery} />
@@ -61,11 +57,11 @@ function Portfolio () {
                             <a class="ml-2">
                                 For more checkout
                             </a>
-                                <a class="ml-2 underline">
-                                    Dribble
+                            <a class="ml-2 underline">
+                                Dribble
                             </a>
-                                <a class="ml-2 underline ">
-                                    Behance
+                            <a class="ml-2 underline ">
+                                Behance
                             </a>
                         </div>
                         <div className="lg:ml-72 ">
@@ -73,8 +69,8 @@ function Portfolio () {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
-        )
-    }
+    )
+}
 export default Portfolio;

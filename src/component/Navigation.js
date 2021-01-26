@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default class App extends React.Component {
   render() {
     return (
-        <body class="bg-gray-100 antialiased font-sans">
+        <header class="bg-gray-100 antialiased font-sans bg-transparent">
         <nav className="md:px-6 md:py-4 fixed w-full z-30 text-white">
             <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
                 <div className="pl-4 flex items-center">
@@ -39,7 +39,7 @@ export default class App extends React.Component {
                 </div>
             </div>
         </nav>
-        </body>
+        </header>
     );
   }
 }
