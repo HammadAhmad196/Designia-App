@@ -16,7 +16,7 @@ function Header () {
                         <p class="xl:ml-3 xl:text-lg text-gray-200 text-xs">
                             Get your thing done by us at a very affordable cost. We make sure the quality content. We care about client satisfaction.
                         </p>
-                        <button class="focus:outline-none xl:-ml-72 lg:-ml-56 md:-ml-20 hover:underline bg-white text-blue-500 font-bold rounded-full my-6 px-6 py-1">
+                        <button class="md:-text-base focus:outline-none xl:-ml-64 lg:-ml-48 md:-ml-12 hover:underline bg-white text-blue-500 font-bold rounded-full my-6 px-6 py-1">
                             Hire Us!
                         </button>
                     </div>
@@ -28,7 +28,7 @@ function Header () {
                 </div>
             </div>
             <div>
-                <button onClick={navigateTo}  className="xl:text-xl lg:text-xl xl:mr-2  md:text-xl float-right text-sm text-white mr-2">NextPage→</button>
+                <button onClick={navigateTo}  className="xl:mr-2 float-right text-base text-white mr-2">NextPage→</button>
             </div>
             </center>
         </div>

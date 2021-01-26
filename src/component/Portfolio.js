@@ -14,7 +14,7 @@ function Portfolio() {
     const navigateTo = () => history.push('/contact');
     return (
         <div className="h-screen flex flex-1 items-center justify-center" style={{ backgroundImage: `url(${Background2})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
-            <div class="md:px-28 xl:px-72 xl:py-6">
+            <div class="md:px-28 xl:w-9/12 xl:py-6">
                 <div class="flex max-auto lg:py-10 py-16">
                     <div class="">
                         <div class="py-4">
@@ -52,7 +52,7 @@ function Portfolio() {
                     </div>
                 </div>
                 <div className=" lg:-mt-8 md:-mt-6 w-full text-left">
-                    <div class="text-xs ml-4 inline-flex text-white lg:ml-4 md:-mr-32 md:gap-6">
+                    <div class="text-xs md:text-base ml-4 inline-flex text-white lg:ml-4 md:-mr-32 md:gap-6">
                         <div className="lg:ml-4">
                             <a class="ml-2">
                                 For more checkout
@@ -65,7 +65,7 @@ function Portfolio() {
                             </a>
                         </div>
                         <div className="lg:ml-72 ">
-                            <button onClick={navigateTo} className="xl:mr-36 float-right text-sm text-white ml-4 md:ml-48">NextPage→</button>
+                            <button onClick={navigateTo} className="md:text-base ml-6 md:ml-28">NextPage→</button>
                         </div>
                     </div>
                 </div>

@@ -9,9 +9,9 @@ export default class App extends React.Component {
         <nav className="md:px-6 md:py-4 fixed w-full z-30 text-white">
             <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
                 <div className="pl-4 flex items-center">
-                    <a className="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+                    <Link to={"/"} className="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
                         designia.
-                    </a>
+                    </Link>
                 </div>
                 {/* <label for="menu-toggle" class="pointer-cursor md:hidden block">
                     <svg class="fill-current text-gray-900"

@@ -29,9 +29,9 @@ export default class Contact extends React.Component {
                                         <button class="px-2 py-1 text-blue-400 rounded-2xl border-2 bg-white  focus:outline-none">Send Message</button>
                                     </div>
                                 </div>
-                                <div class=" md:my-4 my-10 w-full text-right">
-                                    <span class="xl:text-xl md:text-base flex flex-row text-white lg:gap-6  md:ml-40  lg:ml-40  xl:ml-72  md:gap-6">
-                                        <a class="ml-2">
+                                <div class=" md:my- my-10 w-full text-right">
+                                    <span class=" md:flex md:justify-self-end xl:text-xl md:text-base flex flex-row text-white lg:gap-6  md:ml-40  lg:ml-40  xl:ml-72  md:gap-6">
+                                        <a class="text-sm ml-2">
                                             For more checkout
                                         </a>
                                         <a class="text-sm ml-2 underline">
