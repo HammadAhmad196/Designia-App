@@ -22,7 +22,7 @@ function Header () {
                     </div>
                     <div class="md:flex md:w-3/5">
                         <div className="md:flex md:justify-end xl:justify-end">
-                            <img className="-mt-4 w-full md:w-2/3" src={hero1} alt="hero" />
+                            <img className="-mt-4 w-full md:w-2/3 px-8 -ml-6 md:px-0" src={hero1} alt="hero" />
                         </div>
                     </div>
                 </div>

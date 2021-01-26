@@ -13,21 +13,21 @@ function Skills () {
                 <div className="container mx-auto">
                     <div className="flex flex-row justify-start items-center text-center">
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                            <img className="xl:w-56 lg:w-56" src={circle} alt="circle" />
+                            <img className="xl:w-56 lg:w-56 -mt-28 md:mt-0" src={circle} alt="circle" />
                             <div className="-mt-16 md:-mt-32 lg:-mt-44 lg:ml-12 xl:-mt-44" >
                                 <h2 className="xl:-ml-2 text-white md:ml-16 title-font font-medium text-sm md:text-4xl xl:text-4xl lg:text-4xl lg:-ml-16 ">67%</h2>
                                 <p className="lg:mr-2 text-xs text-center text-white xl:font-extrabold md:text-right md:text-base md:ml-4 lg:text-xl xl:text-xl xl:mr-4">User Experience</p>
                             </div>
                         </div>
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                            <img className="xl:w-56 lg:w-56 " src={circle1} alt="circle1" />
+                            <img className="xl:w-56 lg:w-56" src={circle1} alt="circle1" />
                             <div className="-mt-16 md:-mt-32 lg:-mt-44 lg:ml-16 xl:-mt-44" >
                                 <h2 className="xl:-ml-2 md:ml-16 text-white title-font font-medium text-sm md:text-4xl lg:text-4xl lg:-ml-16 ">89%</h2>
                                 <p className="lg:-mr-2 text-xs text-center xl:font-extrabold  text-white md:text-right md:text-base md:ml-4 lg:text-xl xl:text-xl xl:mr-8">User Interface</p>
                             </div>
                         </div>
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                            <img className="xl:w-56 lg:w-56" src={circle2} alt="circle2" />
+                            <img className="xl:w-56 lg:w-56 mt-28 md:mt-0" src={circle2} alt="circle2" />
                             <div className="-mt-16 md:-mt-32 xl:-mt-44 lg:ml-16 lg:-mt-44" >
                                 <h2 className="xl:-ml-2 md:ml-16 text-white title-font font-medium text-sm md:text-4xl lg:text-4xl lg:-ml-16">56%</h2>
                                 <p className="lg:mr-2 xl:font-extrabold text-xs text-center text-white md:text-right md:text-base md:ml-4 lg:text-xl xl:text-xl xl:mr-8">UI Interaction</p>
